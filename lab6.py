@@ -53,12 +53,12 @@ if __name__=='__main__':
         choice = input('Please choose a menu option: ')
 
         if choice == "1":
-            password = input("Enter you 8 digit password to encode:")
+            password = input("Please enter you 8 digit password to encode:")
             new_pass = encode(password)
-            print(f' Your encoded password is {new_pass}')
+            print(' Your password has been encoded and stored')
 
         elif choice == '2':
-            print(f' Your encoded password is {new_pass} and the decoded password is {decode(new_pass)}')
+            print(f' Your encoded password is {new_pass} and the original password is {decode(new_pass)}')
 
         elif choice == '3':
             break
