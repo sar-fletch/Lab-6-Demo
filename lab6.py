@@ -22,19 +22,14 @@ def encode(password):
     return encoded_pass
 
 
+#Sandro Mocevic
+#10/23/23
 
 def decode(new_pass):
-    pass   #  partner to do
-
-
-
-
-
-
-
-
-
-
+    decoded = ""
+    for i in new_pass:
+        decoded += str((int(i) + 6) % 9)
+    return decoded
 
 
 # Sara Fletcher
