@@ -53,7 +53,7 @@ if __name__=='__main__':
         choice = input('Please choose a menu option: ')
 
         if choice == "1":
-            password = input("Please enter you 8 digit password to encode:")
+            password = input("Please enter your password to encode:")
             new_pass = encode(password)
             print(' Your password has been encoded and stored')
 
