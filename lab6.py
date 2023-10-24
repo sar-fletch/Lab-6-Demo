@@ -1,3 +1,7 @@
+# Sara Fletcher
+#10 / 23 /23
+
+
 def encode(password):
     string = str(password)
     encoded_pass = ''
@@ -19,6 +23,8 @@ def encode(password):
 
 
 
+def decode(new_pass):
+    pass   #  partner to do
 
 
 
@@ -30,6 +36,9 @@ def encode(password):
 
 
 
+
+# Sara Fletcher
+# 10/23/23
 
 if __name__=='__main__':
     print("Menu")
@@ -46,10 +55,10 @@ if __name__=='__main__':
         if choice == "1":
             password = input("Enter you 8 digit password to encode:")
             new_pass = encode(password)
-            print(new_pass)
+            print(f' Your encoded password is {new_pass}')
 
         elif choice == '2':
-            pass        # to do decode function
+            print(f' Your encoded password is {new_pass} and the decoded password is {decode(new_pass)}')
 
         elif choice == '3':
             break
